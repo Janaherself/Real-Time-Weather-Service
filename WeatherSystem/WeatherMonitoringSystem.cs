@@ -1,6 +1,6 @@
 ﻿public class WeatherMonitoringSystem
 {
-    private List<IWeatherBot> _bots = new List<IWeatherBot>();
+    public List<IWeatherBot> _bots = new List<IWeatherBot>();
 
     public void AddBot(IWeatherBot bot)
     {
